@@ -12,7 +12,7 @@ class Formatter {
    const newarr=str.split(" ");
    for(let i=0;i<newarr.length;i++){
      if(newarr[i]===newarr[0]){
-        newarr[0].toUpperCase();
+       return newarr[0].toUpperCase();
      }
      for(let j=0;j<arr.length;j++){
        if(newarr[i]!==arr[j]){
