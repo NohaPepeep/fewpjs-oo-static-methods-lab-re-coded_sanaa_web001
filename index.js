@@ -11,14 +11,7 @@ class Formatter {
    const arr=["the","a","an","but","of","and","for","at","by","and","from"];
    const newarr=str.split(" ");
    for(let i=0;i<newarr.length;i++){
-     if(newarr[0]===newarr[i]||newarr[i]!=for(let j=0;j<arr.length;j++)
-     {return arr[i];
-       
-     }){
-       
-       
-     }
-   }
+     if(newarr[0]===newarr[i]||}
 
   }
 }
