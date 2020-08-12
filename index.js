@@ -22,7 +22,7 @@ class Formatter {
      }
      
    }
-   return newarr;
+   return str;
   }
 }
 Formatter.capitalize("sss");
