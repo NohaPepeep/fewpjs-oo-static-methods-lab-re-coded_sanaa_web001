@@ -11,8 +11,10 @@ class Formatter {
    const arr=["the","a","an","but","of","and","for","at","by","and","from"];
    const newarr=str.split(" ");
    for(let i=0;i<newarr.length;i++){
-     if(newarr[0]===newarr[i]||}
-
+     if(newarr[i]===newarr[0]){
+       return newarr[0].toUpperCase();
+     }
+   }
   }
 }
 Formatter.capitalize("sss");
