@@ -16,7 +16,7 @@ class Formatter {
      }
      for(let j=0;j<arr.length;j++){
        if(newarr[i]!==arr[j]){
-         return newarr[i].toUpperCase();
+         return newarr[i].replace(newarr[i][0],newarr[i][0].toUpperCase());
        }
      }
    }
