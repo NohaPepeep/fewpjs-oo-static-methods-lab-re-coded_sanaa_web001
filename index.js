@@ -16,7 +16,7 @@ class Formatter {
        str+= newarr[i].replace(newarr[0][0], newarr[0][0].toUpperCase());
        str+=" "
      }
-     else if(newarr[i]!=="the"&&newarr[i]!=="a"&&newarr[i]!=="an"&&newarr[i]!=="but"&&newarr[i]!=="of"&&newarr[i]!=="and"&&newarr[i]!=="for"&&newarr[i]!=="at"&&newarr[i]!=="by"&&newarr[i]!=="and"&&newarr[i]!=="from"){
+     else if(newarr[i]!=="the"||newarr[i]!=="a"||newarr[i]!=="an"||newarr[i]!=="but"||newarr[i]!=="of"||newarr[i]!=="and"||newarr[i]!=="for"||newarr[i]!=="at"||newarr[i]!=="by"||newarr[i]!=="and"||newarr[i]!=="from"){
        str+= newarr[i].replace(newarr[i][0], newarr[i][0].toUpperCase());
        str+=" "
      }
