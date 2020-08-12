@@ -13,14 +13,11 @@ class Formatter {
    str="";
    for(let i=0;i<newarr.length;i++){
      if(newarr[i]===newarr[0]){
-       str+= newarr[0].toUpperCase();
+       str+= replace(newarr[0], newarr[0].toUpperCase());
      }
-     for(let j=0;j<arr.length;j++){
-       if(newarr[i]!==arr[j]){
-         str+= newarr[i].replace(newarr[i][0],newarr[i][0].toUpperCase());
-       }
+     else if(newarr[i]!=="the"||newarr[i]!=="a"||newarr[i]!=="an"||newarr[i]!=="but"||newarr[i]!=="of"||newarr[i]!=="and"||newarr[i]!=="for"||newarr[i]!=="at"||newarr[i]!=="by"||newarr[i]!=="and"||newarr[i]!=="from"){
+       str+= replace(newarr[i], newarr[i].toUpperCase());
      }
-     
    }
    return str;
   }
