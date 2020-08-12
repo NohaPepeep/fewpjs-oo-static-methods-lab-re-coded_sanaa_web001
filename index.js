@@ -19,6 +19,7 @@ class Formatter {
          newarr[i]= newarr[i].replace(newarr[i][0],newarr[i][0].toUpperCase());
        }
      }
+     return newarr;
    }
   }
 }
