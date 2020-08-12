@@ -21,7 +21,7 @@ class Formatter {
        str+=" "
      }
      else {
-       str+= newarr[i].replace(newarr[i][0], newarr[i][0].toUpperCase());
+       str+= newarr[i].replace(newarr[i][0], newarr[i][0].toLowerCase());
      }
    }
    return str;
